@@ -1,0 +1,43 @@
+// web styles
+@import 'web/index';
+
+/*Media queries*/
+
+/*Mac*/
+
+@media (min-width: 1023px) and (max-width: 1200px) {
+  //  @import "mac/index";
+}
+
+/* Retina */
+
+@media all and (-webkit-min-device-pixel-ratio: 1.5),
+  all and (-o-min-device-pixel-ratio: 3 / 2),
+  all and (min--moz-device-pixel-ratio: 1.5),
+  all and (min-device-pixel-ratio: 1.5) {
+  //  @import "retina/index";
+}
+
+/*Tab devices*/
+
+@media (min-width: 768px) and (max-width: 991px) {
+  @import 'tablet/index';
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  @import 'tablet/landscape/index';
+}
+
+/*Mobile phones*/
+
+@media (max-width: 767px) {
+  @import 'mobile/index';
+}
+
+@media (max-width: 767px) and (orientation: landscape) {
+  @import 'mobile/landscape/index';
+}
+
+@media (max-width: 450px) {
+  @import 'mobile/xs-index';
+}

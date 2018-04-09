@@ -1,0 +1,23 @@
+{
+  "name": "Template",
+  "description": "This is the frontend of the Behring",
+  "main": "index.js",
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/lib",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "jquery": "^3.1.1",
+    "bootstrap": "boostrap#^3.3.7",
+    "slick-carousel": "^1.7.0",
+    "fancybox": "https://github.com/fancyapps/fancybox.git#^3.1.20",
+    "font-awesome": "^4.7.0",
+    "waypoints": "^4.0.1"
+  }
+}
